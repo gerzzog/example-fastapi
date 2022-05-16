@@ -1,1 +1,1 @@
-web: uvicorn app.main:app --host=0.0.0.0 --port=${PORT:-5000}
+web: uvicorn app.main:git add -Aapp --host=0.0.0.0 --port=${PORT:-5000}
